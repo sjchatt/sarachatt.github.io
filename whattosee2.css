@@ -1,0 +1,93 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+
+    }
+    body {
+       width: 800px;
+       height: 100%;
+       margin:auto;
+       font-family: 'Raleway', sans-serif;
+       background-image: url("http://www.jpl.nasa.gov/spaceimages/images/mediumsize/PIA17834_ip.jpg");
+       background-size:100% 100% ;
+       background-repeat: repeat-y;
+    }
+    .container {
+        background-color: rgba(255, 255, 255, 0.45);
+
+    }
+    article {
+    margin: 10px;}
+
+    header {
+        background-color:teal;
+        color: white;
+        border: 5px solid black;
+        margin: top;
+        padding: 5px;
+        font-size: 30px;
+        display: block;
+        text-align: center;
+    }
+    nav {
+        float: left;
+        width: 800px;
+        background-color: #333;
+
+    }
+    nav ul {
+        float: left;
+        border-bottom: ;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+
+    }
+    nav li {
+    float: left;
+
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        vertical-align: middle;
+        color: white;
+        text-decoration: none;
+        padding: 14px 16px;
+
+    }
+    li a:hover {
+    background-color: #111;
+}
+
+
+    }
+    a {
+        color: ;
+    }
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+    }
